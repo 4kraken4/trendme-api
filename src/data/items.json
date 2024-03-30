@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "Linen Button-Down Shirt",
+    "image": "https://example.com/linen_button_down.jpg",
+    "unitPrice": 44.99,
+    "description": "A lightweight and breathable linen shirt, perfect for warm weather. Features a classic button-down collar and relaxed fit.",
+    "tags": ["tops", "shirts", "linen", "men", "summer", "breathable"],
+    "category": "men"
+  },
+  {
+    "id": 2,
+    "name": "Chambray Shirt",
+    "image": "https://example.com/chambray_shirt.jpg",
+    "unitPrice": 29.99,
+    "description": "A versatile chambray shirt with a slightly textured look. Can be dressed up or down for various occasions.",
+    "tags": ["tops", "shirts", "mens", "casual", "versatile"],
+    "category": "men"
+  },
+  {
+    "id": 3,
+    "name": "Henley Shirt",
+    "image": "https://example.com/henley_shirt.jpg",
+    "unitPrice": 22.99,
+    "description": "A comfortable and casual henley shirt with a crew neck and button placket. Great for layering or wearing on its own.",
+    "tags": ["tops", "shirts", "henley", "casual", "mens", "tees"],
+    "category": "men"
+  },
+  {
+    "id": 4,
+    "name": "Oxford Shirt",
+    "image": "https://example.com/oxford_shirt.jpg",
+    "unitPrice": 39.99,
+    "description": "A more polished and structured oxford shirt with a button-down collar. Ideal for a smart casual look.",
+    "tags": ["tops", "shirts", "oxford", "mens", "smart", "casual"],
+    "category": "men"
+  },
+  {
+    "id": 5,
+    "name": "Flannel Shirt",
+    "image": "https://example.com/flannel_shirt.jpg",
+    "unitPrice": 34.99,
+    "description": "A warm and comfortable flannel shirt, perfect for colder weather. Features a soft brushed texture and relaxed fit.",
+    "tags": ["tops", "shirts", "flannel", "mens", "warm", "comfortable"],
+    "category": "men"
+  },
+  {
+    "id": 6,
+    "name": "Denim Shirt",
+    "image": "https://example.com/denim_shirt.jpg",
+    "unitPrice": 39.99,
+    "description": "A stylish and edgy denim shirt with a classic button-down collar. Can be dressed up or down for a variety of looks.",
+    "tags": ["tops", "shirts", "denim", "mens", "stylish", "edgy"],
+    "category": "men"
+  },
+  {
+    "id": 7,
+    "name": "Printed Casual Shirt",
+    "image": "https://example.com/printed_casual_shirt.jpg",
+    "unitPrice": 27.99,
+    "description": "A casual shirt with a fun and eye-catching print. Perfect for adding personality to your outfit.",
+    "tags": [
+      "tops",
+      "shirts",
+      "printed",
+      "mens",
+      "casual",
+      "fun",
+      "eye-catching"
+    ],
+    "category": "men"
+  },
+  {
+    "id": 8,
+    "name": "Patterned Casual Shirt",
+    "image": "https://example.com/patterned_casual_shirt.jpg",
+    "unitPrice": 32.99,
+    "description": "A casual shirt with a stylish pattern, such as stripes or checks. Adds a touch of visual interest to your look.",
+    "tags": ["tops", "shirts", "patterned", "mens", "casual", "stylish"],
+    "category": "men"
+  },
+  {
+    "id": 9,
+    "name": "Linen Blend Casual Shirt",
+    "image": "https://example.com/linen_blend_casual_shirt.jpg",
+    "unitPrice": 39.99,
+    "description": "A comfortable and breathable shirt made from a blend of linen and other materials. Offers a balance between style and practicality.",
+    "tags": [
+      "tops",
+      "shirts",
+      "linen",
+      "blend",
+      "mens",
+      "comfortable",
+      "breathable",
+      "stylish"
+    ],
+    "category": "men"
+  },
+  {
+    "id": 10,
+    "name": "Relaxed Fit Casual Shirt",
+    "image": "https://example.com/relaxed_fit_casual_shirt.jpg",
+    "unitPrice": 24.99,
+    "description": "A casual shirt with a looser fit for a more relaxed look. Perfect for everyday wear or lounging.",
+    "tags": [
+      "tops",
+      "shirts",
+      "relaxed",
+      "fit",
+      "mens",
+      "casual",
+      "comfortable"
+    ],
+    "category": "men"
+  }
+]
