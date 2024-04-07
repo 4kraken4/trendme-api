@@ -22,6 +22,16 @@ const CartRepository = {
   async deleteCart(id) {
     return await Cart.findOneAndDelete({ id })
   },
+  async getCartByUser(userId) {
+    return await Cart.findOne({ userId, status: 'active' })
+  },
+  async updateCartStatus(cartId, status) {
+    return await Cart.findOneAndUpdate(
+      { id: cartId },
+      { status },
+      { new: true }
+    )
+  },
 }
 
 export default CartRepository

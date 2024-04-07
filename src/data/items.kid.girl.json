@@ -1,0 +1,56 @@
+[
+  {
+    "id": 44,
+    "name": "Twirl Dress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5732_1.jpg",
+    "unitPrice": 29.99,
+    "description": "A fun and flowy dress with a full skirt, perfect for twirling and playing. Available in a variety of colors and prints.",
+    "tags": ["dresses", "girls", "casual", "summer", "playful"],
+    "category": "kids"
+  },
+  {
+    "id": 45,
+    "name": "A-Line Dress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/6/5693_1.jpg",
+    "unitPrice": 34.99,
+    "description": "A comfortable and flattering dress with a fitted bodice and skirt that flows out gently towards the hem. Available in various lengths and materials.",
+    "tags": ["dresses", "girls", "a-line", "comfortable", "versatile"],
+    "category": "kids"
+  },
+  {
+    "id": 46,
+    "name": "Sundress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5727_1.jpg",
+    "unitPrice": 24.99,
+    "description": "A lightweight and sleeveless dress, perfect for warm weather. Often made from cotton or a cotton blend for breathability.",
+    "tags": ["dresses", "girls", "summer", "casual", "lightweight"],
+    "category": "kids"
+  },
+  {
+    "id": 47,
+    "name": "Party Dress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5702_1.jpg",
+    "unitPrice": 39.99,
+    "description": "A special occasion dress with embellishments or brighter colors. Can be made from various materials like tulle, satin, or sequined fabrics.",
+    "tags": ["dresses", "girls", "party", "special occasion", "dressy"],
+    "category": "kids"
+  },
+  {
+    "id": 48,
+    "name": "Knit Dress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5702_1.jpg",
+    "unitPrice": 27.99,
+    "description": "A comfortable and versatile dress made from a soft and stretchy knit fabric. Great for everyday wear or layering.",
+    "tags": ["dresses", "girls", "knit", "comfortable", "versatile"],
+    "category": "kids"
+  },
+  {
+    "id": 49,
+    "name": "Lase Dress - Dark Pink",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5716_1.jpg",
+    "unitPrice": 32.99,
+    "description": "A dress with long sleeves, perfect for cooler weather. Available in various styles and thicknesses for different climates.",
+    "tags": ["dresses", "girls", "long sleeve", "fall", "winter"],
+    "category": "kids"
+  }
+]

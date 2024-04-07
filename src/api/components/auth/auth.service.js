@@ -7,6 +7,7 @@ const authService = {
   register: async (registerRequest) => {
     try {
       const request = {
+        username: registerRequest.username,
         email: registerRequest.email,
         passwordHash: await util.hashPassword(registerRequest.password),
       }
@@ -42,7 +43,8 @@ const authService = {
       ) {
         throw new Error('BadCredentialsError')
       }
-      await tokenService.revokeAllTokens(user.id)
+      // For development purposes, I commented this
+      // await tokenService.revokeAllTokens(user.id)
       const accessToken = (await tokenService.accessToken(user)).token
       const refreshToken = (await tokenService.refreshToken(user)).token
       return new AuthResponse({ accessToken, refreshToken })

@@ -7,14 +7,21 @@ const CartService = {
   async getCartById(id) {
     return await CartRepository.getCartById(id)
   },
-  async updateCart(id, cart) {
-    return await CartRepository.updateCart(id, cart)
+  async updateCart(id, data) {
+    const { cart, userId } = data
+    const { items } = cart
+    const newCart = { userId, items }
+    return await CartRepository.updateCart(id, newCart)
   },
   async deleteCart(id) {
     return await CartRepository.deleteCart(id)
   },
   async getCartByUser(userId) {
     return await CartRepository.getCartByUser(userId)
+  },
+
+  async updateCartStatus(cartId, status) {
+    return await CartRepository.updateCartStatus(cartId, status)
   },
 }
 

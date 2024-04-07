@@ -1,0 +1,83 @@
+[
+  {
+    "id": 50,
+    "name": "Collared T-Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2022/04/8-2-100x100.jpg",
+    "unitPrice": 19.99,
+    "description": "A classic and versatile short-sleeved shirt. Available in a variety of colors and prints, perfect for everyday wear.",
+    "tags": [
+      "shirts",
+      "boys",
+      "t-shirts",
+      "casual",
+      "versatile",
+      "short sleeve",
+      "collared",
+      "everyday",
+      "trending"
+    ],
+    "category": "kids"
+  },
+  {
+    "id": 51,
+    "name": "Crew Neck Solid Color T-Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2023/09/33073-blush-red-300x300.jpg",
+    "unitPrice": 22.99,
+    "description": "A comfortable and versatile t-shirt. Great for layering or wearing on its own in cooler weather.",
+    "tags": ["shirts", "boys", "long sleeve", "casual", "layering"],
+    "category": "kids"
+  },
+  {
+    "id": 52,
+    "name": "Polo Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2022/04/46-2-100x100.jpg",
+    "unitPrice": 24.99,
+    "description": "A collared shirt with a two- or three-button placket. A more polished option than a t-shirt, suitable for casual or slightly dressy occasions.",
+    "tags": ["shirts", "boys", "polo", "collared", "casual"],
+    "category": "kids"
+  },
+  {
+    "id": 53,
+    "name": "Button-Down Stripe Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2023/09/Bright-white-2-100x100.jpg",
+    "unitPrice": 27.99,
+    "description": "A more formal shirt with a full button closure down the front.  Can be worn with dress pants or jeans for a variety of occasions.",
+    "tags": [
+      "shirts",
+      "boys",
+      "button-down",
+      "collared",
+      "versatile",
+      "formal",
+      "trending"
+    ],
+    "category": "kids"
+  },
+  {
+    "id": 54,
+    "name": "Versatile Crew Neck Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2022/04/26-300x300.jpg",
+    "unitPrice": 22.99,
+    "description": "A comfortable and casual shirt with a crew neck and a button placket at the neckline. Great for layering or wearing on its own.",
+    "tags": ["shirts", "boys", "henley", "casual", "layering"],
+    "category": "kids"
+  },
+  {
+    "id": 55,
+    "name": "Leaf Print Shirt",
+    "image": "https://www.edgecasual.com/wp-content/uploads/2023/09/Bright-white-1-300x300.jpg",
+    "unitPrice": 24.99,
+    "description": "A t-shirt with a graphic design or message on the front. Can be a fun way for boys to express their interests.",
+    "tags": [
+      "shirts",
+      "boys",
+      "t-shirts",
+      "graphic",
+      "casual",
+      "expressive",
+      "fun",
+      "trending"
+    ],
+    "category": "kids"
+  }
+]

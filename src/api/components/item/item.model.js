@@ -14,6 +14,7 @@ const ItemSchema = new mongoose.Schema(
       required: true,
       unique: true,
       trim: true,
+      text: true,
     },
     image: {
       type: String,
@@ -29,12 +30,14 @@ const ItemSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
+      text: true,
     },
     tags: [
       {
         type: String,
         required: true,
         trim: true,
+        text: true,
       },
     ],
     category: {
@@ -46,6 +49,7 @@ const ItemSchema = new mongoose.Schema(
   {
     timestamps: true,
     collection: 'Items',
+    text: true,
   }
 )
 

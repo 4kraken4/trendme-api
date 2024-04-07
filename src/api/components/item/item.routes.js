@@ -52,5 +52,10 @@ ItemRouter.get(
   await jwtAuthorize([ROLES.ADMIN, ROLES.USER]),
   ItemController.findItemsByTagInCategorically
 )
+ItemRouter.get(
+  '/search/category/:category/query/:query',
+  await jwtAuthorize([ROLES.ADMIN, ROLES.USER]),
+  ItemController.searchItems
+)
 
 export default ItemRouter

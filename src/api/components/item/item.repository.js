@@ -55,6 +55,14 @@ const ItemRepository = {
       },
     ])
   },
+  async searchItems(searchQuery) {
+    const results = await Item.find(searchQuery, {
+      score: { $meta: 'textScore' },
+    })
+      .sort({ score: { $meta: 'textScore' } })
+      .limit(10)
+    return results
+  },
 }
 
 export default ItemRepository
