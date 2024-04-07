@@ -83,6 +83,15 @@ const ItemController = {
       next(error)
     }
   },
+  async searchItems(req, res, next) {
+    try {
+      const { category, query } = req.params
+      const items = await ItemService.searchItems(category, query)
+      res.status(200).json(items)
+    } catch (error) {
+      next(error)
+    }
+  },
 }
 
 export default ItemController

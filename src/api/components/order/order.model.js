@@ -1,6 +1,6 @@
 import mongoose from '../../../../db/mongoose.js'
 
-const CartSchema = new mongoose.Schema(
+const OrderSchema = new mongoose.Schema(
   {
     id: {
       type: Number,
@@ -14,19 +14,29 @@ const CartSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    items: { type: Array, required: true, trim: true, maxlength: 3200 },
+    cartId: {
+      type: Number,
+      required: true,
+      trim: true,
+    },
+    total: {
+      type: Number,
+      required: true,
+      trim: true,
+    },
     status: {
       type: String,
       required: true,
+      trim: true,
       default: 'active',
     },
   },
   {
     timestamps: true,
-    collection: 'Carts',
+    collection: 'Orders',
   }
 )
 
-const Cart = mongoose.model('Cart', CartSchema)
+const Order = mongoose.model('Order', OrderSchema)
 
-export default Cart
+export default Order

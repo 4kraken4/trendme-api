@@ -3,13 +3,17 @@ import validator from '../../../middleware/validate.js'
 const authValidater = {
   register: async (req, res, next) => {
     try {
-      const { email, password } = req.body
-      if (!email || !password) {
+      const { username, email, password } = req.body
+      if (!email || !username || !password) {
         throw new Error('BadRequest')
       }
 
       if (!validator.validateEmail(email)) {
         throw new Error('InvalidEmailError')
+      }
+
+      if (!validator.validateUsername(username)) {
+        throw new Error('InvalidUsernameError')
       }
 
       if (!validator.validatePassword(password)) {

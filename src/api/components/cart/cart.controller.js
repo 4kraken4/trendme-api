@@ -3,7 +3,11 @@ import CartService from './cart.service.js'
 const CartController = {
   create: async (req, res, next) => {
     try {
-      const cart = await CartService.createCart(req.body)
+      const cartReq = {
+        userId: req.user.id,
+        items: req.body.items,
+      }
+      const cart = await CartService.createCart(cartReq)
       res.status(201).json(cart)
     } catch (error) {
       next(error)
@@ -11,7 +15,10 @@ const CartController = {
   },
   update: async (req, res, next) => {
     try {
-      const cart = await CartService.updateCart(req.params.id, req.body)
+      const cart = await CartService.updateCart(req.params.id, {
+        cart: req.body,
+        userId: req.user.id,
+      })
       res.status(200).json(cart)
     } catch (error) {
       next(error)
@@ -35,7 +42,18 @@ const CartController = {
   },
   findByUser: async (req, res, next) => {
     try {
-      const cart = await CartService.getCartByUser(req.params.userId)
+      const cart = await CartService.getCartByUser(req.user.id)
+      res.status(200).json(cart)
+    } catch (error) {
+      next(error)
+    }
+  },
+  updateStatus: async (req, res, next) => {
+    try {
+      const cart = await CartService.updateCartStatus(
+        req.params.id,
+        req.body.status
+      )
       res.status(200).json(cart)
     } catch (error) {
       next(error)

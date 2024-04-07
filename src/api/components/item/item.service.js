@@ -100,6 +100,21 @@ const ItemService = {
   getItemsByTagInCategorically: async (tag) => {
     return await ItemRepository.getItemByTagInCategorically(tag)
   },
+  searchItems: async (category, query) => {
+    const escapedSearchString = query.replace(
+      /[-[\]{}()*+?.,\\^$|#\s]/g,
+      '\\$&'
+    )
+    const searchQuery = {}
+
+    if (category) {
+      searchQuery.category = category
+    }
+
+    // Text search using $text operator
+    searchQuery.$text = { $search: escapedSearchString }
+    return ItemRepository.searchItems(searchQuery)
+  },
 }
 
 export default ItemService

@@ -1,0 +1,228 @@
+[
+  {
+    "id": 11,
+    "name": "V-Neck Tee",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/5/5576.jpg",
+    "unitPrice": 19.99,
+    "description": "A classic and versatile V-neck tee, perfect for layering or wearing on its own. Available in a variety of colors.",
+    "tags": ["tops", "t-shirts", "v-neck", "womens", "casual", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 12,
+    "name": "Crewneck Tee",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/5/5575.jpg",
+    "unitPrice": 17.99,
+    "description": "A comfortable and casual crewneck tee. Great for everyday wear or lounging. Available in a variety of colors.",
+    "tags": ["tops", "t-shirts", "crewneck", "womens", "casual", "comfortable"],
+    "category": "women"
+  },
+  {
+    "id": 13,
+    "name": "Tank Top",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5175_2.jpg",
+    "unitPrice": 14.99,
+    "description": "A sleeveless tank top, perfect for warm weather. Available in a variety of colors and styles.",
+    "tags": ["tops", "tanks", "womens", "summer", "casual"],
+    "category": "women"
+  },
+  {
+    "id": 14,
+
+    "name": "Blouse",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5166_2.jpg",
+    "unitPrice": 29.99,
+    "description": "A dressier top with a more tailored fit. Can be paired with slacks or a skirt for a polished look.",
+    "tags": ["tops", "blouses", "womens", "dressy", "polished"],
+    "category": "women"
+  },
+  {
+    "id": 15,
+    "name": "Sweatshirt",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5165_2.jpg",
+    "unitPrice": 34.99,
+    "description": "A comfortable and casual sweatshirt, perfect for cooler weather. Available in a variety of colors and styles.",
+    "tags": ["tops", "sweatshirts", "womens", "casual", "comfortable"],
+    "category": "women"
+  },
+  {
+    "id": 16,
+    "name": "Hoodie",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5173_2.jpg",
+    "unitPrice": 39.99,
+    "description": "A casual top with a hood, perfect for layering or wearing on its own. Available in a variety of colors and styles.",
+    "tags": ["tops", "hoodies", "womens", "casual", "comfortable"],
+    "category": "women"
+  },
+  {
+    "id": 17,
+    "name": "Crop Top",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5138.jpg",
+    "unitPrice": 24.99,
+    "description": "A shorter-length top that exposes the midriff. Available in a variety of styles, such as tank tops, t-shirts, and sweatshirts.",
+    "tags": ["tops", "crop tops", "womens", "casual", "trendy"],
+    "category": "women"
+  },
+  {
+    "id": 18,
+    "name": "Camisole",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5139.jpg",
+    "unitPrice": 19.99,
+    "description": "A sleeveless top with a fitted silhouette, often worn as a layering piece.",
+    "tags": ["tops", "camisoles", "womens", "layering", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 19,
+    "name": "Graphic Tee",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5131.jpg",
+    "unitPrice": 22.99,
+    "description": "A t-shirt with a graphic design or message on the front. Can be a fun way to express your personality.",
+    "tags": ["tops", "t-shirts", "graphic", "womens", "casual", "expressive"],
+    "category": "women"
+  },
+  {
+    "id": 20,
+    "name": "Button-Down Shirt",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5108.jpg",
+    "unitPrice": 27.99,
+    "description": "A collared shirt with buttons down the front. Can be dressed up or down for various occasions.",
+    "tags": ["tops", "shirts", "button-down", "womens", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 21,
+    "name": "Tunic Top",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/0/5094.jpg",
+    "unitPrice": 32.99,
+    "description": "A longer-length top that falls at the hip or thigh. Can be worn on its own or with leggings.",
+    "tags": ["tops", "tunics", "womens", "casual", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 22,
+    "name": "Bodysuit",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/0/5082.jpg",
+    "unitPrice": 34.99,
+    "description": "A close-fitting one-piece garment that snaps at the crotch. Often worn with jeans or skirts.",
+    "tags": ["tops", "bodysuits", "womens", "fitted", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 23,
+    "name": "Tank Top Dress",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/0/5081.jpg",
+    "unitPrice": 29.99,
+    "description": "A long tank top that can be worn as a dress. Perfect for summer weather.",
+    "tags": ["tops", "dresses", "tank tops", "womens", "summer", "casual"],
+    "category": "women"
+  },
+  {
+    "id": 24,
+    "name": "Skinny Jeans",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/6/5603_1.jpg",
+    "unitPrice": 39.99,
+    "description": "A close-fitting trouser that tapers down the leg. Available in a variety of washes and colors.",
+    "tags": ["trousers", "jeans", "skinny", "womens", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 25,
+    "name": "Straight-Leg Jeans",
+    "image": "[invalid URL removed]",
+    "unitPrice": 34.99,
+    "description": "A classic jean with a straight leg opening from hip to ankle. Available in a variety of washes and colors.",
+    "tags": ["trousers", "jeans", "straight", "womens", "classic", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 26,
+    "name": "Bootcut Jeans",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/7/5743_3.jpg",
+    "unitPrice": 37.99,
+    "description": "A jean that flares out slightly from the knee down, designed to fit over boots. Available in a variety of washes and colors.",
+    "tags": ["trousers", "jeans", "bootcut", "womens", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 27,
+    "name": "Wide-Leg Trousers",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/8/5817.jpg",
+    "unitPrice": 44.99,
+    "description": "Trousers with a wide leg opening from hip to hem. Can be dressy or casual depending on the material.",
+    "tags": ["trousers", "wide-leg", "womens", "dressy", "casual"],
+    "category": "women"
+  },
+  {
+    "id": 28,
+    "name": "Palazzo Pants",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/8/5816.jpg",
+    "unitPrice": 49.99,
+    "description": "Wide-leg trousers with a flowing silhouette, often made from a light and airy fabric.",
+    "tags": ["trousers", "palazzo", "womens", "dressy", "flowy"],
+    "category": "women"
+  },
+  {
+    "id": 29,
+    "name": "Leggings",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/6/5603_1.jpg",
+    "unitPrice": 24.99,
+    "description": "A close-fitting stretchy garment that resembles tights but is thicker and more opaque. Can be worn on its own or layered under other clothing.",
+    "tags": ["trousers", "leggings", "womens", "casual", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 38,
+    "name": "Ladies Printed Skirt - Black Printed",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5133.jpg",
+    "unitPrice": 24.99,
+    "description": "A short skirt that ends high on the thighs. Can be a fun and flirty piece for summer.",
+    "tags": ["skirts", "mini", "womens", "casual", "summer"],
+    "category": "women"
+  },
+  {
+    "id": 39,
+    "name": "Ladies Printed Skirt - White Printed",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5135.jpg",
+    "unitPrice": 32.99,
+    "description": "A skirt that falls below the knee but above the ankle. A versatile length that can be dressed up or down.",
+    "tags": ["skirts", "midi", "womens", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 40,
+    "name": "Ladies Wrap Skirt W/Knot - Navy Printed",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5110.jpg",
+    "unitPrice": 39.99,
+    "description": "Ladies Wrap Skirt W/Knot - Navy Printed by Ayana. This Skirts is part of our stylish new collection. We have limited pieces available so get it now while stocks last. Please Note: Available colors may vary.",
+    "tags": ["skirts", "maxi", "womens", "comfortable", "elegant"],
+    "category": "women"
+  },
+  {
+    "id": 41,
+    "name": "Ladies Office Skirt Mini - Grey",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/0/5010_1.jpg",
+    "unitPrice": 34.99,
+    "description": "A straight, fitted skirt that reaches the knee. A classic workwear style that can also be dressed down for a casual look.",
+    "tags": ["skirts", "pencil", "womens", "workwear", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 42,
+    "name": "Ladies Long Skirt - Off White",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/0/5012.jpg",
+    "unitPrice": 29.99,
+    "description": "A skirt that has a fitted waist and flows out gently towards the hem, creating an A-shaped silhouette. A flattering style for many body types.",
+    "tags": ["skirts", "a-line", "womens", "flattering", "versatile"],
+    "category": "women"
+  },
+  {
+    "id": 43,
+    "name": "Ladies Linen Skirt - Pink Printed",
+    "image": "https://www.beverlystreet.lk/media/catalog/product/cache/1/small_image/320x/040ec09b1e35df139433887a97daa66f/5/1/5170_2.jpg",
+    "unitPrice": 37.99,
+    "description": "A skirt that wraps around the body and fastens at the waist with ties or a button. A comfortable and adjustable style that can be worn high or low on the waist.",
+    "tags": ["skirts", "wrap", "womens", "comfortable", "adjustable"],
+    "category": "women"
+  }
+]
