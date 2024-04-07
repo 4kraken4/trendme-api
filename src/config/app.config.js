@@ -26,8 +26,23 @@ export default class Config {
    */
   get api() {
     return {
+      version: process.env.API_VERSION || '1.0.0',
       port: process.env.API_PORT || 3000,
-      apiRoutePrefix: process.env.API_ROUTE_PREFIX || '/api/slweather',
+      apiRoutePrefix: process.env.API_ROUTE_PREFIX || '/api/v1',
+      apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:3000',
+    }
+  }
+
+  get client() {
+    return {
+      baseUrl: process.env.CLIENT_BASE_URL,
+      baseUrtHttps: process.env.CLIENT_BASE_URL_HTTPS,
+    }
+  }
+
+  get device() {
+    return {
+      prefix: process.env.DEVICE_PREFIX,
     }
   }
 
