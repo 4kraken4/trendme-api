@@ -92,6 +92,27 @@ const ItemController = {
       next(error)
     }
   },
+
+  async search(req, res, next) {
+    const { q, price_min, price_max, category } = req.query
+    let keywords = []
+    if (q) {
+      keywords = q.split(',')
+    }
+
+    const searchQuery = {
+      ...(keywords.length > 0 && { $text: { $search: keywords.join(' ') } }),
+      ...(price_max &&
+        price_min && { unitPrice: { $lte: price_max, $gte: price_min } }),
+      ...(category && { category }),
+    }
+    try {
+      const items = await ItemService.searchItemswithActiveFilters(searchQuery)
+      res.status(200).json(items)
+    } catch (error) {
+      next(error)
+    }
+  },
 }
 
 export default ItemController

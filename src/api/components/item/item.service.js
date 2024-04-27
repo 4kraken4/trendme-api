@@ -111,9 +111,11 @@ const ItemService = {
       searchQuery.category = category
     }
 
-    // Text search using $text operator
     searchQuery.$text = { $search: escapedSearchString }
     return ItemRepository.searchItems(searchQuery)
+  },
+  searchItemswithActiveFilters(query) {
+    return ItemRepository.searchItems(query)
   },
 }
 

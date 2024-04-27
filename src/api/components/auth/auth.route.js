@@ -9,6 +9,7 @@ authRouter.post(
   await authValidater.register,
   authController.register
 )
+authRouter.get('/me', authController.getUserFromToken)
 authRouter.post(
   '/login',
   await authValidater.authenticate,

@@ -6,12 +6,17 @@ import ItemController from './item.controller.js'
 const ItemRouter = router()
 
 ItemRouter.post('/', await jwtAuthorize([ROLES.ADMIN]), ItemController.create)
+ItemRouter.get(
+  '/search',
+  await jwtAuthorize([ROLES.ADMIN, ROLES.USER]),
+  ItemController.search
+)
 ItemRouter.delete(
   '/:id',
   await jwtAuthorize([ROLES.ADMIN]),
   ItemController.remove
 )
-ItemRouter.put('/item/:id', ItemController.update)
+ItemRouter.put('/:id', ItemController.update)
 ItemRouter.delete(
   '/:id',
   await jwtAuthorize([ROLES.ADMIN]),

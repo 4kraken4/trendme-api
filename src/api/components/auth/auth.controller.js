@@ -17,6 +17,16 @@ const authController = {
       next(error)
     }
   },
+  getUserFromToken: async (req, res, next) => {
+    try {
+      const token = req.headers.authorization.split(' ')[1]
+      if (!token) throw new Error('TokenNotProvidedError')
+      const user = await authService.getUserFromToken(token)
+      res.status(200).json(user)
+    } catch (error) {
+      next(error)
+    }
+  },
   logout: async (req, res, next) => {
     try {
       const tokenUpdated = await authService.logout(token)

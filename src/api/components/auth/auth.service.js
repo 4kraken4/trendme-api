@@ -62,6 +62,16 @@ const authService = {
     }
   },
 
+  getUserFromToken: async (token) => {
+    try {
+      const userId = tokenService.getUserIdFromToken(token)
+      const user = await userService.findById(userId)
+      return user
+    } catch (error) {
+      throw error
+    }
+  },
+
   logoutFromAllDevices: async (token) => {
     try {
       const userId = tokenService.getUserIdFromToken(token)
